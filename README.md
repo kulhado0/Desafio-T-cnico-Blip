@@ -15,3 +15,6 @@ https://documenter.getpostman.com/view/13704967/2sAYQfCoTc
 - SerializeCarouselItems -> Implementei o botão pois não achei prático o carrossel sem algum redirecionamento (sei que não foi proposto)
 - Catch de Exceptions -> Implementar resposta de erro no BOT ao obter resposta da API -> igual ao proposto no figma
 - GetTakeRepositories -> Pegar apenas os repositórios C# -> Atualmente está pegando os rep. de qualquer linguagem
+
+
+### Repositório atualizado da api: https://github.com/kulhado0/challenge
