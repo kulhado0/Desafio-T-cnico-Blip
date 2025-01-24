@@ -1,0 +1,62 @@
+{
+	"info": {
+		"_postman_id": "49831ea3-a718-4936-9f99-eea20c80f441",
+		"name": "Teste técnico endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13704967"
+	},
+	"item": [
+		{
+			"name": "Desafios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://blip-app-eb7991a554a3.herokuapp.com/Desafios",
+					"protocol": "https",
+					"host": [
+						"blip-app-eb7991a554a3",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"Desafios"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Desafios",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://blip-app-eb7991a554a3.herokuapp.com/Desafios",
+							"protocol": "https",
+							"host": [
+								"blip-app-eb7991a554a3",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"Desafios"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"itemType\": \"application/vnd.lime.document-select+json\",\n    \"items\": [\n        {\n            \"header\": {\n                \"type\": \"application/vnd.lime.media-link+json\",\n                \"value\": {\n                    \"title\": \"takenet/library.data\",\n                    \"text\": \"Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications\",\n                    \"type\": \"image/jpeg\",\n                    \"uri\": \"https://avatars.githubusercontent.com/u/4369522?v=4\"\n                }\n            },\n            \"options\": [\n                {\n                    \"label\": {\n                        \"type\": \"application/vnd.lime.web-link+json\",\n                        \"value\": {\n                            \"title\": \"Ver Repositório\",\n                            \"uri\": \"https://github.com/takenet/library.data\"\n                        }\n                    },\n                    \"value\": null\n                }\n            ]\n        },\n        {\n            \"header\": {\n                \"type\": \"application/vnd.lime.media-link+json\",\n                \"value\": {\n                    \"title\": \"takenet/library.logging\",\n                    \"text\": \"Provides a simple logging interface for applications and some basic implementations of this interface\",\n                    \"type\": \"image/jpeg\",\n                    \"uri\": \"https://avatars.githubusercontent.com/u/4369522?v=4\"\n                }\n            },\n            \"options\": [\n                {\n                    \"label\": {\n                        \"type\": \"application/vnd.lime.web-link+json\",\n                        \"value\": {\n                            \"title\": \"Ver Repositório\",\n                            \"uri\": \"https://github.com/takenet/library.logging\"\n                        }\n                    },\n                    \"value\": null\n                }\n            ]\n        },\n        {\n            \"header\": {\n                \"type\": \"application/vnd.lime.media-link+json\",\n                \"value\": {\n                    \"title\": \"takenet/CorrectNumber\",\n                    \"text\": \"This project have the single propose of creating a simple rest service to format telephone numbers\",\n                    \"type\": \"image/jpeg\",\n                    \"uri\": \"https://avatars.githubusercontent.com/u/4369522?v=4\"\n                }\n            },\n            \"options\": [\n                {\n                    \"label\": {\n                        \"type\": \"application/vnd.lime.web-link+json\",\n                        \"value\": {\n                            \"title\": \"Ver Repositório\",\n                            \"uri\": \"https://github.com/takenet/CorrectNumber\"\n                        }\n                    },\n                    \"value\": null\n                }\n            ]\n        },\n        {\n            \"header\": {\n                \"type\": \"application/vnd.lime.media-link+json\",\n                \"value\": {\n                    \"title\": \"takenet/libphonenumber-csharp\",\n                    \"text\": \"Forking original c# port\",\n                    \"type\": \"image/jpeg\",\n                    \"uri\": \"https://avatars.githubusercontent.com/u/4369522?v=4\"\n                }\n            },\n            \"options\": [\n                {\n                    \"label\": {\n                        \"type\": \"application/vnd.lime.web-link+json\",\n                        \"value\": {\n                            \"title\": \"Ver Repositório\",\n                            \"uri\": \"https://github.com/takenet/libphonenumber-csharp\"\n                        }\n                    },\n                    \"value\": null\n                }\n            ]\n        },\n        {\n            \"header\": {\n                \"type\": \"application/vnd.lime.media-link+json\",\n                \"value\": {\n                    \"title\": \"takenet/Takenet.ScoreSystem\",\n                    \"text\": \"Takenet score system\",\n                    \"type\": \"image/jpeg\",\n                    \"uri\": \"https://avatars.githubusercontent.com/u/4369522?v=4\"\n                }\n            },\n            \"options\": [\n                {\n                    \"label\": {\n                        \"type\": \"application/vnd.lime.web-link+json\",\n                        \"value\": {\n                            \"title\": \"Ver Repositório\",\n                            \"uri\": \"https://github.com/takenet/Takenet.ScoreSystem\"\n                        }\n                    },\n                    \"value\": null\n                }\n            ]\n        }\n    ]\n}"
+				}
+			]
+		}
+	]
+}
